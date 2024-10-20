@@ -1,0 +1,208 @@
+/* Reset de márgenes y ajustes generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff; /* Fondo muy claro */
+    margin: 0;
+    padding: 0;
+}
+
+/* Barra de navegación */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    /* Sombra mejorada */
+}
+
+.logo img {
+    height: 50px;
+    margin-left: 5em;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+/* Estilos para los enlaces de navegación */
+.nav-item {
+    font-size: 1.1rem;
+    color: #333;
+    text-decoration: none;
+    font-family: 'Arial', sans-serif;
+    transition: color 0.3s ease;
+}
+
+.nav-item:hover {
+    color: #e1c4f3;
+}
+
+/* Sección hero */
+.hero {
+    background-color: #ffffff; /* Color de fondo claro */
+    padding: 120px 0;
+    text-align: center;
+    width: 100vw;
+}
+
+.hero-content {
+    max-width: 100%;
+    margin: 0;
+    padding-bottom: 0; /* Elimina cualquier espacio adicional */
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    color: #7030A0; /* Morado principal */
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    color: #555; /* Texto gris oscuro */
+    margin-bottom: 40px;
+}
+
+/* Contenedor de la imagen del hero */
+.image-content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.image-content img {
+    width: 100vw;
+    height: auto;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+}
+
+/* Secciones generales */
+section {
+    padding: 60px 20px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #7030A0; /* Morado para los títulos */
+}
+
+p {
+    line-height: 1.6;
+    color: #555; /* Texto gris oscuro */
+    font-size: 1.1rem;
+}
+
+/* Sección sobre nosotros */
+.sobre-nosotros {
+    background-color: #f9f9f9;
+    text-align: justify;
+    padding: 40px 20px; /* Ajusta el padding para equilibrar el espacio */
+    margin-top: -20px; /* Reduce el espacio entre las secciones */
+}
+
+.sobre-nosotros .text-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Funcionalidades */
+.funcionalidades {
+    background-color: #ffffff;
+    margin-bottom: 100px; /* Aumenta el espacio inferior entre secciones */
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.feature {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.feature h3 {
+    font-size: 1.8rem;
+    color: #7030A0; /* Títulos morados */
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 25px;
+}
+
+.feature p {
+    color: #333;
+    text-align: justify;
+}
+
+/* Imágenes dentro de las funcionalidades */
+.feature img {
+    width: 300px; /* Ajusta el tamaño según tus necesidades */
+    height: auto;
+    margin: 0 auto 15px auto; /* Centra la imagen horizontalmente */
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: block; /* Asegura que la imagen se comporte como un bloque para el centrado */
+}
+
+/* Sección de video */
+.video-explicativo {
+    padding: 40px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.video-explicativo h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    padding: 50px;
+}
+
+.video-explicativo video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+.footer {
+    background-color: #ffffff;
+    padding: 50px 0;
+    text-align: center;
+    border-top: 1px solid #e0e0e0;
+    margin-top: 40px;
+}
+
+.footer-icons {
+    display: inline-flex;
+    gap: 30px;
+}
+
+.footer-icons img {
+    width: 30px;
+    height: 30px;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+
+.footer-icons img:hover {
+    filter: grayscale(0%);
+}

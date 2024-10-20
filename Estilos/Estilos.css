@@ -1,0 +1,286 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'sans-serif', Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    padding-top: 60px;
+    /* Ajuste para evitar que el contenido se superponga con el nav */
+}
+
+/* Barra de navegación */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    /* Sombra mejorada */
+}
+
+.logo img {
+    height: 50px;
+    margin-left: 5em;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+/* Estilos para los enlaces de navegación */
+.nav-item {
+    font-size: 1.1rem;
+    color: #333;
+    text-decoration: none;
+    font-family: 'Arial', sans-serif;
+    transition: color 0.3s ease;
+}
+
+.nav-item:hover {
+    color: #e1c4f3;
+}
+
+/* Presentación personal */
+.intro {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.intro h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-size: 20px;
+    color: #555;
+}
+
+/* Contenido principal */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1); /* Cambia estos valores según tus necesidades */
+
+    
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 88%;
+    padding: 50px;
+    
+}
+
+.text-content {
+    width: 60%;
+    margin-right: 20px;
+    padding: 100px;
+}
+
+.text-content h1 {
+    font-size: 3rem;
+    color: #7C4AC4;
+    margin-bottom: 20px;
+}
+
+.text-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: -10px;
+    text-align: justify;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin-right: 15px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+button {
+    background-color: #D0BBE5;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #333;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    margin-left: 15px;
+}
+
+button:hover {
+    background-color: #C4A6DB;
+}
+
+.image-content {
+    width: 40%;
+}
+
+.image-content img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.titulo-portafolio {
+    font-family: 'Arial', sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    color: #333; /* Color gris oscuro */
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .titulo-portafolio::before, .titulo-portafolio::after {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 3px;
+    background-color: #e1c4f3; 
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .titulo-portafolio::before {
+    left: -100px;
+  }
+  
+  .titulo-portafolio::after {
+    right: -100px;
+  }
+  
+  .titulo-portafolio:hover {
+    color: #555;
+    transition: color 0.3s ease;
+  }
+  
+
+/* Estilos del portafolio */
+.portafolio-content {
+    padding: 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.portafolio-content h1 {
+    color: #7C4AC4;
+    font-size: 36px;
+    margin-bottom: 30px;
+    padding: 100px;
+}
+
+.tarjeta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    /* Ajuste para mover la tarjeta hacia abajo */
+    padding: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.tarjeta-izquierda {
+    width: 40%;
+}
+
+.tarjeta-izquierda img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.tarjeta-derecha {
+    width: 55%;
+    text-align: center;
+}
+
+.tarjeta-derecha h2 {
+    font-size: 24px;
+    color: #380949;
+    margin-bottom: 10px;
+}
+
+.tarjeta-derecha p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.tarjeta-derecha button {
+    padding: 10px 20px;
+    background-color: #7C4AC4;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.tarjeta-derecha button:hover {
+    background-color: #5C3A94;
+}
+
+.inversa {
+    flex-direction: row-reverse;
+}
+
+/* Footer */
+.footer {
+    background-color: #ffffff;
+    padding: 50px 0;
+    text-align: center;
+    border-top: 1px solid #e0e0e0;
+    margin-top: 40px;
+}
+
+.footer-icons {
+    display: inline-flex;
+    gap: 30px;
+}
+
+.footer-icons img {
+    width: 30px;
+    height: 30px;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+
+.footer-icons img:hover {
+    filter: grayscale(0%);
+}
