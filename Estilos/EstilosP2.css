@@ -7,7 +7,8 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #ffffff; /* Fondo muy claro */
+    background-color: #ffffff;
+    /* Fondo muy claro */
     margin: 0;
     padding: 0;
 }
@@ -52,7 +53,8 @@ body {
 
 /* Sección hero */
 .hero {
-    background-color: #ffffff; /* Color de fondo claro */
+    background-color: #ffffff;
+    /* Color de fondo claro */
     padding: 120px 0;
     text-align: center;
     width: 100vw;
@@ -61,18 +63,21 @@ body {
 .hero-content {
     max-width: 100%;
     margin: 0;
-    padding-bottom: 0; /* Elimina cualquier espacio adicional */
+    padding-bottom: 0;
+    /* Elimina cualquier espacio adicional */
 }
 
 .hero h1 {
     font-size: 2.5rem;
-    color: #7030A0; /* Morado principal */
+    color: #7030A0;
+    /* Morado principal */
     margin-bottom: 20px;
 }
 
 .hero p {
     font-size: 1.25rem;
-    color: #555; /* Texto gris oscuro */
+    color: #555;
+    /* Texto gris oscuro */
     margin-bottom: 40px;
 }
 
@@ -99,12 +104,14 @@ h2 {
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 20px;
-    color: #7030A0; /* Morado para los títulos */
+    color: #7030A0;
+    /* Morado para los títulos */
 }
 
 p {
     line-height: 1.6;
-    color: #555; /* Texto gris oscuro */
+    color: #555;
+    /* Texto gris oscuro */
     font-size: 1.1rem;
 }
 
@@ -112,8 +119,10 @@ p {
 .sobre-nosotros {
     background-color: #f9f9f9;
     text-align: justify;
-    padding: 40px 20px; /* Ajusta el padding para equilibrar el espacio */
-    margin-top: -20px; /* Reduce el espacio entre las secciones */
+    padding: 40px 20px;
+    /* Ajusta el padding para equilibrar el espacio */
+    margin-top: -20px;
+    /* Reduce el espacio entre las secciones */
 }
 
 .sobre-nosotros .text-content {
@@ -124,7 +133,8 @@ p {
 /* Funcionalidades */
 .funcionalidades {
     background-color: #ffffff;
-    margin-bottom: 100px; /* Aumenta el espacio inferior entre secciones */
+    margin-bottom: 100px;
+    /* Aumenta el espacio inferior entre secciones */
 }
 
 .feature-grid {
@@ -141,7 +151,8 @@ p {
 
 .feature h3 {
     font-size: 1.8rem;
-    color: #7030A0; /* Títulos morados */
+    color: #7030A0;
+    /* Títulos morados */
     margin-bottom: 15px;
     text-align: center;
     padding: 25px;
@@ -154,12 +165,15 @@ p {
 
 /* Imágenes dentro de las funcionalidades */
 .feature img {
-    width: 300px; /* Ajusta el tamaño según tus necesidades */
+    width: 300px;
+    /* Ajusta el tamaño según tus necesidades */
     height: auto;
-    margin: 0 auto 15px auto; /* Centra la imagen horizontalmente */
+    margin: 0 auto 15px auto;
+    /* Centra la imagen horizontalmente */
     border-radius: 5px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    display: block; /* Asegura que la imagen se comporte como un bloque para el centrado */
+    display: block;
+    /* Asegura que la imagen se comporte como un bloque para el centrado */
 }
 
 /* Sección de video */
